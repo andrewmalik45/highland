@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Soft Made Easy</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <section class="head-sec">
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Soft:Made:Easy</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Our Work</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Download Catalog</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+    </section>
+
+        <main class="l-main">
+            
+         <!--===== HOME =====-->
+         <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">What we <br class="hero-break">Offer</h1>
+            </div>
+
+            <div class="home__img">
+                <h1 class="home__img__head">Web Design & Development starting @ 1999 Rs.</h1>
+                <p class="home__img__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla donec consequat blandit pulvinar. Magna amet tincidunt eu malesuada libero eu.</p>
+                <span></span>
+                <a href=""><button class="btn-hero">Hire us<i class="hero-icon fa fa-briefcase"></i></button></a>
+            </div>
+        </section>
+
+        <!-- =============== card ========== -->
+
+        <section class="section-card">
+
+            <h1 class="sec-card-head">
+                We offer our Smart customers the best deals with quote solutions.
+            </h1>
+
+
+            <div class="wrapper">
+            <div class="card">
+                <h2 class="card-title">Basic Design and Development @ 1999 Rs /-</h2>
+                   <ul>
+                       <li>Basic template design of any content background ( UI/UX ) . </li>
+                       <li>Responsive Development with source code.</li>
+                       <li>Magna amet tincidunt eu malesuada libero eu. </li>
+                       <li>Magna amet tincidunt eu malesuada libero eu. </li>
+
+                   </ul>
+            </div>
+
+                <div class="card">
+                    <h3 class="card-title">Customized Personal Website @ 5000 Rs /-</h3>
+                    <ul>
+                        <li>Can Customize Webpage on the basis of look and feel.  </li>
+                        <li>Responsive Development with source code.</li>
+                        <li>MFree Customized Resume (click here) .</li>
+                        <li>1 year free Domain Name.  </li>
+ 
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Web Design and Development @ 10k - 15k .</h3>
+                    <ul>
+                        <li>Basic template design of any content background ( UI/UX ) . </li>
+                        <li>Responsive Development with source code.</li>
+                        <li>Advanced SEO optimization. </li>
+                        <li>Full stack Website </li>
+ 
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============ section - form ================ -->
+
+        <section class="form-sec">
+            <div class="form-flex">
+            <div class="form-info">
+            <h1 class="form-title">Set your personal portfolios with <br> professional touch.</h1>
+            <p class="form-para">Fill up the details to start your amazing <br> website Ideas with us.</p>
+           
+                <form
+                action="https://postmail.invotes.com/send"
+                method="post"
+                id="email_form"
+              >
+                <input class="form-in" type="text" name="subject" placeholder="Name" />
+                <br />
+                <!-- <input type="text" name="name" placeholder="Your Name" /> -->
+                
+                <input type="text" name="extra_phone_number" placeholder="Phone Number" />
+                <br />
+                <input type="text" name="reply_to" placeholder="Your Email" />
+                <br />
+                <textarea name="text" placeholder="Any Message"></textarea>
+                <br />
+                <input
+                  type="hidden"
+                  name="access_token"
+                  value="ps5jzh2ka0x9se08apb93wvk"
+                />
+                <!-- return urls can be fully qualified -OR-
+                   start with / for root relative -OR-
+                   start with . for url relative -->
+                <input
+                  type="hidden"
+                  name="success_url"
+                  value=".?message=Email+Successfully+Sent%21&isError=0"
+                />
+                <input
+                  type="hidden"
+                  name="error_url"
+                  value=".?message=Email+could+not+be+sent.&isError=1"
+                />
+          
+                <!-- set the reply-to address -->
+          
+                <!-- to append extra fields, use the extra_ prefix.
+                  Entries will be appended to your message body. -->
+          
+                <!-- to split your message into 160 chars
+                   for an sms gateway -->
+                <!-- <input type="hidden"
+                          name="sms_format" value="true" /> -->
+          
+                <input id="submit_form" type="submit" value="Let's Talk" />
+                <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+              </form>
+          
+              <!-- optional, prevents the submit button from being pressed more than once -->
+              <script>
+                var submitButton = document.getElementById("submit_form");
+                var form = document.getElementById("email_form");
+                form.addEventListener("submit", function (e) {
+                  setTimeout(function () {
+                    submitButton.value = "Sending...";
+                    submitButton.disabled = true;
+                  }, 1);
+                });
+              </script>
+
+</div>
+<div class="img-mail">
+    <img  src="./assets/img/Mail_form.svg" alt="">
+</div>
+</div>
+        </section>
+
+<!-- ================== footer ==================== -->
+
+
+<footer>
+    <div class="row primary">
+      <div class="column about">
+        <h3>Soft Made Easy</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          voluptatem corporis error non, corrupti delectus unde, incidunt
+          dolorem quam porro tenetur autem? Maxime aspernatur quas, natus
+          nesciunt harum obcaecati voluptatum.
+        </p>
+      </div>
+      <div class="column links">
+        <h3 class="h3">Quick Links</h3>
+        <ul class="ul">
+          <li class="li">
+            <a href="#faq">F.A.Q</a>
+          </li>
+          <li class="li">
+            <a href="#cookies-policy">Cookies Policy</a>
+          </li>
+          <li class="li">
+            <a href="#terms-of-services">Terms Of Service</a>
+          </li>
+          <li class="li">
+            <a href="#support">Support</a>
+          </li>
+          <li class="li">
+            <a href="#careers">Careers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="column subscribe">
+        <h3>Contact us</h3>
+
+        <div class="social">
+          <i class="fa-brands fa-facebook-square"></i>
+          <i class="fa-brands fa-instagram-square"></i>
+          <i class="fa-brands fa-twitter-square"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
+          <i class="fa-brands fa-upwork"></i>
+
+        </div>
+      </div>
+    </div>
+    <div class="row secondary">
+      <div>
+        <p>
+          <i class="fas fa-phone-alt"></i>
+        </p>
+        <p>+12 123456789</p>
+      </div>
+      <div>
+        <p><i class="fas fa-envelope"></i></p>
+        <p>mail@domain.com</p>
+      </div>
+      <div>
+        <p><i class="fas fa-map-marker-alt"></i></p>
+        <p>1234 Pearl Street</p>
+      </div>
+    </div>
+    <div class="row copyright">
+      <p>Copyright &copy; 2022 Soft Made Easy | All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
